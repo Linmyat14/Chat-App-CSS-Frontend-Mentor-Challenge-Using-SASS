@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+$pale-violet: hsl(276, 100%, 81%);
+$moderate-violet: hsl(276, 55%, 52%);
+$grayish-blue: hsl(206, 6%, 79%);
+$desaturated-violet: hsl(271, 36%, 24%);
+$grayish-violet: hsl(270, 7%, 64%);
+$light-grayish-violet: hsl(270, 20%, 96%);
+$dark-grayish-violet: hsl(270, 7%, 64%);
+$white: hsl(0, 0%, 100%);
+$font-stack: 'Rubik', sans-serif;
+$font-size: 16px;
+
+
+
+
+// - Pale Violet (sub-heading at the top of the app UI): hsl(276, 100%, 81%)
+// - Moderate Violet (chat on the left): hsl(276, 55%, 52%)
+// - Desaturated Dark Violet (chat on the right): hsl(271, 15%, 43%)
+// - Grayish Blue (placeholder text): hsl(206, 6%, 79%)
+// - Very Dark Desaturated Violet (main heading): hsl(271, 36%, 24%)
+// - Dark Grayish Violet (paragraph): hsl(270, 7%, 64%)

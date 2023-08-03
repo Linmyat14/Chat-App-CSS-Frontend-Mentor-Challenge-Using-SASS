@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./chat-app-css-illustration-master/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="./css/app.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="background-left"></div>
+        <div class="chat-app">
+           <div class="ui">
+            <div class="ui-screen">
+                <div class="ui-top">
+                    <div class="ui-top-camera"></div>
+                    <div class="ui-top-section">
+                        <i class="fa-solid fa-chevron-left back-icon"></i>
+                        <img src="./chat-app-css-illustration-master/images/avatar.jpg" alt="">
+                        <div class="chat-person">
+                            <p class="lead">  Samuel Green</p>
+                            <p>Available to Walk</p>
+                        </div>
+                        <i class="fa-solid fa-ellipsis-vertical general-icon"></i>
+                    </div>
+                </div>
+                <div class="ui-message">
+                    <div class="ui-message-send-text">
+                        <p> That sounds great. I’d be happy with that.</p>
+                    </div>
+                    <div class="ui-message-send-text">
+                        <p> Could you send over some pictures of your dog, please?</p>
+                    </div>
+                    <div class="ui-message-img">
+                        <img src="./chat-app-css-illustration-master/images/dog-image-1.jpg" alt="" class="dog-img">
+                        <img src="./chat-app-css-illustration-master/images/dog-image-2.jpg" alt="" class="dog-img">
+                        <img src="./chat-app-css-illustration-master/images/dog-image-3.jpg" alt="" class="dog-img">
+                    </div>
+                    <div class="ui-message-reply-text">
+                        <p> Here are a few pictures. She’s a happy girl!</p>
+                    </div>
+                    <div class="ui-message-reply-text" style="height: 30px; width: 100px;">
+                        <p> Can you make it?</p>
+                    </div>
+                    <div class="ui-message-send-text" style="height: 60px;">
+                        <p> She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" id="30min" name="duration" style="display: none;">
+                        <i class="fa-regular fa-circle"></i>
+                         <label class="minute"for="30min">30 minute walk</label><br>
+                        <p class="dollar">$29</p>
+                    </div>
+                    <div class="radio-btn">
+                        <input type="radio" id="1hr" name="duration" style="display: none;">
+                        <i class="fa-regular fa-circle"></i>
+                         <label class="minute"for="1hr">1 hour walk</label><br>
+                        <p class="dollar">$49</p>
+                    </div>
+                </div>
+                <div class="type-message">
+                    <p>Type a message…</p>
+                    <div class="i-box">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+           </div> 
+        </div>
+        <div class="hero">
+            <h2> Simple booking</h2>
+            <p>Stay in touch with our dog walkers through the chat<br class="line-break">interface. This makes it easy to 
+                discuss arrangements and <br class="line-break">make bookings. Once the walk has been completed you can<br class="line-break"> rate 
+                your walker and book again all through the chat.</p>
+        </div>
+        <div class="background-right">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
